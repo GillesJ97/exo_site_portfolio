@@ -4,6 +4,14 @@ html,body{
     background-color: rgb(30, 32, 41);
     color: rgb(253, 244, 238);
 }
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+h1{
+    text-align: center;
+}
 footer{
     display: flex;
     justify-content: center;
@@ -12,11 +20,11 @@ footer{
     bottom: 0;*/
     width: 100%;
     background-color: black;
-    font-size: small;
 }
-.logo{
-    height: 50px;
-    width: 50px;
+.copyright{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: small;
 }
 
 /*---------------------Home--------------------*/
@@ -32,13 +40,29 @@ footer{
 
 /*---------------------Contact--------------------*/
 
+.map{
+    width: 100%;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+}
+.namail{
+    display: flex;
+    flex-direction: column;
+}
 .formulaire{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 10%;
+}
+textarea[name=message]{
+    width: 288px;
+    height: 100px;
 }
 
 
